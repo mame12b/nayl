@@ -11,7 +11,7 @@ export default function ServicesPage() {
         software development, and laundry business solutions.
       </p>
 
-      <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
         <div className="p-6 border rounded-lg">
           <h3 className="font-semibold">Global Import & Export</h3>
@@ -35,12 +35,7 @@ export default function ServicesPage() {
           </p>
         </div>
 
-        <div className="p-6 border rounded-lg">
-          <h3 className="font-semibold">Laundry Systems</h3>
-          <p className="text-sm text-gray-500 mt-2">
-            Smart laundry business solutions and operational automation.
-          </p>
-        </div>
+    
 
       </div>
 

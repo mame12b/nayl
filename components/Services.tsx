@@ -1,4 +1,4 @@
-import { Globe, Cpu, Code, WashingMachine } from "lucide-react"
+import { Globe, Cpu, Code } from "lucide-react"
 
 const services = [
   {
@@ -19,12 +19,7 @@ const services = [
       "Custom web systems, business automation platforms, and enterprise software development.",
     icon: Code,
   },
-  {
-    title: "Laundry Systems Dubai",
-    description:
-      "Smart laundry business solutions including setup consultation, automation, and operational systems.",
-    icon: WashingMachine,
-  },
+
 ]
 
 export default function Services() {
@@ -37,12 +32,12 @@ export default function Services() {
           <h2 className="text-4xl font-bold">Our Services</h2>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
             Nayl Trading provides global trading, technology supply, software
-            development, and innovative laundry solutions.
+            development.
           </p>
         </div>
 
         {/* Services grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {services.map((service, index) => {
             const Icon = service.icon

@@ -25,11 +25,7 @@ export default function ProductsPage() {
       description:
         "Custom web applications and enterprise software development.",
     },
-    {
-      title: "Laundry Equipment",
-      description:
-        "Commercial laundry machines and automation systems for laundry businesses.",
-    },
+
   ]
 
   return (
