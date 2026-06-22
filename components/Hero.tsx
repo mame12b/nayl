@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export default function Hero() {
   return (
-   <section className="bg-gradient-to-r from-blue-900 to-black text-white py-32 px-6 md:px-10 text-center">
+    <section className="bg-gradient-to-r from-blue-900 to-black text-white py-32 px-6 md:px-10 text-center">
 
       <motion.h1
         initial={{ opacity: 0, y: -40 }}
@@ -38,12 +38,12 @@ export default function Hero() {
           Our Services
         </Link>
 
-      <Link
-       href="/contact"
-      className="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition"
->
-  Contact Us
-</Link>
+        <Link
+          href="/contact"
+          className="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition"
+        >
+          Contact Us
+        </Link>
       </motion.div>
 
     </section>
